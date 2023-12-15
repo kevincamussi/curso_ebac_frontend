@@ -1,0 +1,13 @@
+form {
+  text-align: center;
+}
+
+form input {
+  margin: 5px 0;
+  padding: 2px;
+  width: 200px;
+}
+
+#email {
+    margin-left: -3px;
+}
