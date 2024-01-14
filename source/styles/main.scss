@@ -1,0 +1,13 @@
+@use 'variaveis';
+@use 'sass:math';
+
+body{
+    background-color: variaveis.$corBG;
+    color:variaveis.$corTexto;
+    text-align: center;
+    font-size: variaveis.$tamanho;
+}
+
+p{
+    font-size: calc(variaveis.$tamanho - 10%);
+}

@@ -1,0 +1,1 @@
+function dizOi(o){console.log("oi "+o)}module.exports=dizOi;
