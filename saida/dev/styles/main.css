@@ -1,0 +1,13 @@
+body {
+  background-color: aqua;
+  color: #fff;
+}
+p {
+  background-color: #030303;
+  color: #d32b2b;
+  border: 5px solid #fff;
+}
+h1 {
+  background-color: blue;
+  color: #fff;
+}
