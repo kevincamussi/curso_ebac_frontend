@@ -26,8 +26,15 @@ class Veiculo {
     setCor = function(cor){
         this.cor = cor;
     }
-}
 
+    get getVelocidade(){
+        return this.velocidade;
+    }
+
+    get estaLigado(){
+        return this.ligado;
+    }
+}
 
 
 // ---------------------------------------
@@ -128,3 +135,6 @@ console.log(`
     Automatico:${carroCorrida.automatico ? "Sim" : "Não"}
 `);
 
+
+console.log(carroCorrida.getVelocidade);
+console.log(carro.estaLigado);
